@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAFFLE</title>
+    <link rel="icon" type="image/jpg" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <nav>
+                <a id="link1" href="index.html">HOME</a>
+                <a id="link2" href="aboutUs.html">ABOUT US</a>
+                <a id="link3" href="contact.html">CONTACT</a>
+                <a id="link4" href="information.html">MORE INFORMATION</a>
+                <a id="link5" href="benefitsTips.html">BENEFITS AND TIPS</a>
+                <a id="link6" href="raffle.html">RAFFLE</a>
+                <img id="logoheader" src="logo.png" alt="LOGO">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <br>
+        <div id="title">
+            <h1>SNOWY CREAM</h1>
+            <h2> HOME</h2>
+        </div>
+        <h4>You can collaborate to hold and exhibition event and participe in a raffle to win an easel</h4>
+        <br>
+        <div id="raffle">
+            <section id="mapa">
+                <h5> OUR LOCATION IS LOCATED AT: </h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.0442234191!2d-118.7413994902036!3d34.020608444440924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1698060580954!5m2!1ses!2sco"
+                    width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section id="formulario">
+                <form action="#" method="get">
+                    <label for="first-name">FIRST NAME</label>
+                    <br>
+                    <input type="text" id="first-name">
+                    <br>
+                    <label for="last-name">LAST NAME</label>
+                    <br>
+                    <input type="text" id="last-name">
+                    <br>
+                    <label for="plataforms">CHOOSE MEET OR ZOOM</label>
+                    <br>
+                    <select name="plataform" id="plataforms">
+                        <option value="#">SELECT A OPTION, PLEASE</option>
+                        <option value="Meet">MEET</option>
+                        <option value="Zoom">ZOOM</option>
+                    </select>
+
+                    <br>
+                    <label for="dates">CHOOSE A DATE</label>
+                    <br>
+                    <input class="date" type="date" id="dates">
+                    <br>
+                    <label>PAYMENT OPTIONS</label>
+                    <br>
+                    <input type="radio" id="cash" name="payment" value="CASH">
+                    <label class="cash" for="cash">CASH</label>
+                    <br>
+                    <input type="radio" id="credit-card" name="payment">
+                    <label class="credit-card" for="credit-card">CREDIT CARD</label>
+                    <br>
+                    <input type="radio" id="debit-card" name="payment">
+                    <label class="debit-card" for="debit-card">DEBIT CARD</label>
+                    <br>
+                    <label for="text">MESSAGE - (OPTIONAL)</label>
+                    <br>
+                    <textarea name="message" id="text"></textarea>
+                    <br>
+                    <input type="checkbox" name="terms" id="terms-conditions">
+                    <label for="terms-conditions"> I ACCEPT TERMS AND CONDITIONS.</label>
+                    <input class="send" type="submit" value="Send">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <h3>CREATE BY: MARCELA ARCINIEGAS LISCANO</h3>
+    </footer>
+</body>
+
+</html>

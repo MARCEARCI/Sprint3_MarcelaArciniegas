@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(30deg, rgb(160, 69, 87), rgb(169, 228, 31), rgb(93, 126, 223), rgb(90, 241, 110), purple);
+}
+
+/* ------------------------------------------------------------------------------------*/
+#logoheader {
+    height: 8vw;
+    width: 8vw;
+    position: relative;
+    bottom: 4vh;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* LINKS HEADER*/
+
+a {
+    border-radius: 5px;
+    border-color: rgb(170, 23, 23);
+    text-align: center;
+    color: rgb(7, 6, 6);
+    width: 10vw;
+    height: 6vh;
+    border-style: dotted;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2vh;
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        border-radius: 5px;
+        border-color: rgb(170, 23, 23);
+        text-align: center;
+        color: rgb(7, 6, 6);
+        width: 80vw;
+        height: 6vh;
+        border-style: dotted;
+    }
+
+   
+
+    #descricionheladeria {
+        color: rgb(22, 4, 13);
+        width: 40vw;
+        display: flex;
+        flex-direction: column;
+        
+               
+    }
+
+    .historybox {
+        font-family: cursive;
+        color: rgb(26, 9, 9);
+        background-color: rgb(223, 220, 43);
+        text-align: justify;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+
+    p {
+        font-size: 1.75vh;
+    }
+
+  
+    #indeximg {
+        position: absolute;
+        top: 1vh;
+        left: 10vw;
+        height: 5vh;
+        width: 25vw;
+    }
+
+
+  
+    #icontact {
+        display: flex;
+        align-items: center;
+        height: 30vh;
+        width: 20vw;
+        position: absolute;
+        top: 60vh;
+        left: 40vw;
+        border-radius: 3px;
+    }
+
+    #imagencontact {
+        width: 100vw;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    table {
+        display: flex;
+        justify-content: center;
+        font-family: fantasy;
+        border-style: dotted;
+        padding: 3px;
+        font-size: 10vh;
+    }
+
+    th {
+        color: rgb(223, 217, 217);
+        background-color: rgb(83, 3, 47);
+        border: 1px solid black;
+        font-size: 7vh;
+    }
+    #aboutUs1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+    }
+
+    #icefruit {
+        height: 20vh;
+        width: 15vw;
+        border: 1px solid black;
+        border-radius: 3px;
+        position: relative;
+        left: 15vw;
+    }
+    
+    #aboutUs2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+    }
+    
+    #history {
+        height: 20vh;
+        width: 15vw;
+        border: 1px solid black;
+        border-radius: 3px;
+        position: relative;
+        left: 15vw;
+    }
+
+    #aboutUs3 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 25vw;
+    }
+    #future {
+        height: 20vh;
+        width: 15vw;
+        border: 1px solid black;
+        border-radius: 3px;
+        position: relative;
+        left: 15vw;
+    }
+    
+    td {
+        background-color: rgb(211, 233, 130);
+        border: 1px solid black;
+        font-size: 6vh;
+    }
+
+    #raffle {
+        display: flex;
+        flex-direction: column;
+    }
+
+   #new{
+    width: 80vw;
+   }
+
+    
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* TEXTOS TODAS LAS PAGINAS*/
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    height: 10vh;
+    text-align: center;
+    color: rgb(107, 86, 86);
+}
+
+h4 {
+    text-align: center;
+    font-size: 5vh;
+}
+
+#descricionheladeria {
+    color: rgb(22, 4, 13);
+    width: 50vw;
+    text-align: justify;
+    position: relative;
+    left: 15vw;
+    top: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100vw;
+}
+
+/* ------------------------------------------------------------------------------------*/
+/* IMAGENES INDEX*/
+.bannerindex {
+    width: 80vw;
+    height: 25vh;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    left: 10vw;
+}
+
+#indeximg {
+    left: 20vw;
+    height: 30vh;
+    position: relative;
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------------------------------*/
+#aboutUs1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutUs2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#aboutUs3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ------------------------------------------------------------------------------------*/
+.historybox {
+    font-family: cursive;
+    color: rgb(26, 9, 9);
+    background-color: rgb(223, 220, 43);
+    width: 45vw;
+    height: 20vh;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#history {
+    height: 20vh;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------------------------------*/
+.icefruitbox {
+    font-family: cursive;
+    color: rgb(26, 9, 9);
+    background-color: rgb(223, 220, 43);
+    width: 45vw;
+    height: 20vh;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+#icefruit {
+    height: 20vh;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------------------------------*/
+#future {
+    height: 20vh;
+    width: 15vw;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.future {
+    display: inline-block;
+    font-family: cursive;
+    color: rgb(26, 9, 9);
+    background-color: rgb(223, 220, 43);
+    width: 45vw;
+    height: 20vh;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------------------------------*/
+#icontact {
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 60vw;
+    border-radius: 3px;
+    position: absolute;
+    left: 20vw;
+}
+
+
+#textcontact {
+    position: relative;
+    top: 40vh;
+}
+
+.contactt {
+    text-align: center;
+    font-size: 4vh;
+}
+
+.contactt1 {
+    text-align: center;
+    font-size: 4vh;
+}
+
+#contacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+#whatsapp {
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+
+/* TABLA................................................*/
+
+table {
+    font-family: fantasy;
+    border-style: dotted;
+    padding: 3px;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+th {
+    color: rgb(223, 217, 217);
+    background-color: rgb(83, 3, 47);
+    border: 1px solid black;
+}
+
+td {
+    background-color: rgb(211, 233, 130);
+    border: 1px solid black;
+}
+
+
+
+/* LISTASSSSS.............................*/
+
+.benefitsimg {
+    height: 10vw;
+    width: 10vw;
+    border-radius: 3px;
+
+}
+
+#benefits {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    width: 50vw;
+    border-radius: 3px;
+}
+
+.new {
+    position: absolute;
+    left: 25vw;
+}
+
+#formulario {
+    border-style: dotted;
+}
+
+
+#tips {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    width: 50vw;
+    position: relative;
+    top: 1vh;
+    border-radius: 3px;
+}
+
+
+#raffle {
+    display: flex;
+    justify-content: space-around;
+}
