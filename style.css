@@ -38,10 +38,15 @@ nav {
     top: 2vh;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    h3 {
+        text-align: center;
+    }
+
     nav {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     a {
@@ -56,13 +61,11 @@ nav {
 
    
 
-    #descricionheladeria {
-        color: rgb(22, 4, 13);
-        width: 40vw;
+    .bannerindex {
+        width: 90vw;
+        height: 45vh;
         display: flex;
-        flex-direction: column;
-        
-               
+        align-items: center;
     }
 
     .historybox {
@@ -73,41 +76,53 @@ nav {
         border: 1px solid black;
         border-radius: 3px;
     }
-
-    p {
-        font-size: 1.75vh;
-    }
-
-  
-    #indeximg {
-        position: absolute;
-        top: 1vh;
-        left: 10vw;
-        height: 5vh;
-        width: 25vw;
-    }
-
-
-  
-    #icontact {
+    #indexcentral {
         display: flex;
         align-items: center;
-        height: 30vh;
-        width: 20vw;
-        position: absolute;
-        top: 60vh;
-        left: 40vw;
-        border-radius: 3px;
-    }
-
-    #imagencontact {
-        width: 100vw;
-    }
-
-    #contacto {
-        display: flex;
         flex-direction: column;
     }
+
+
+    #indeximg {
+        width: 30vw;
+        height: 30vw;
+    }
+
+    #textindex {
+        text-align: justify;
+
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------*/
+    #whatsapp {
+        width: 5vw;
+        height: 5vw;
+
+
+    }
+
+   
+    #icontact {
+        width: 30vw;
+        height: 30vw;
+        
+    }
+
+    #textcontact {
+        text-align: center;
+    }
+
+    /* ------------------------------------------------------------------------------------------------------------*/
+    .imgaboutus {
+        width: 30VW;
+        height: 30vw;
+    }
+
+    .box {
+        text-align: justify;
+        font-size: 3vh;
+    }
+
 
     table {
         display: flex;
@@ -124,53 +139,14 @@ nav {
         border: 1px solid black;
         font-size: 7vh;
     }
-    #aboutUs1 {
+
+    .aboutUs1 {
         display: flex;
         flex-direction: column;
-        position: relative;
-        left: 25vw;
+        align-items: center;
     }
 
-    #icefruit {
-        height: 20vh;
-        width: 15vw;
-        border: 1px solid black;
-        border-radius: 3px;
-        position: relative;
-        left: 15vw;
-    }
-    
-    #aboutUs2 {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 25vw;
-    }
-    
-    #history {
-        height: 20vh;
-        width: 15vw;
-        border: 1px solid black;
-        border-radius: 3px;
-        position: relative;
-        left: 15vw;
-    }
 
-    #aboutUs3 {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 25vw;
-    }
-    #future {
-        height: 20vh;
-        width: 15vw;
-        border: 1px solid black;
-        border-radius: 3px;
-        position: relative;
-        left: 15vw;
-    }
-    
     td {
         background-color: rgb(211, 233, 130);
         border: 1px solid black;
@@ -179,15 +155,24 @@ nav {
 
     #raffle {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
-   #new{
-    width: 80vw;
-   }
+    .new {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+    }
 
-    
+   
+    .benefitsimg {
+        width: 50vw;
+        height: 50vw;
+    }
+
 }
+
 
 /* ------------------------------------------------------------------------------------*/
 /* TEXTOS TODAS LAS PAGINAS*/
